@@ -1,0 +1,1 @@
+em++ -o index.html main.cpp -std=c++17 -Os -Wall ./llib/libraylib.a -I. -I include/ -L. -L llib/ -s USE_GLFW=3 --shell-file shell.html -s EXPORTED_FUNCTIONS=[\"_main\",\"_add\",\"_GetNum\",\"_SetNum\"] -s EXPORTED_RUNTIME_METHODS=[\"ccall\",\"cwrap\",\"getValue\",\"setValue\"] -s FORCE_FILESYSTEM=1 -DPLATFORM_WEB
